@@ -115,7 +115,7 @@
                 return;
             }
 
-            const coins = amountReceived / 2.9;
+            const coins = amountReceived / 2.907;
             const discountedCoins = coins * (discount / 100);
             const totalCoins = coins + discountedCoins;
 
@@ -137,7 +137,7 @@
 
             const discountCoins = (coins * discount) / (100 + discount);
             const coinsAfterDiscount = coins - discountCoins;
-            const amount = coinsAfterDiscount * 2.9;
+            const amount = coinsAfterDiscount * 2.907;
 
             // Display formatted results
             document.getElementById('discountCoinsB').textContent = formatNumber(discountCoins);
